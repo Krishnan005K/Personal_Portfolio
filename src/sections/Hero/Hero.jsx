@@ -2,8 +2,8 @@ import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/Hero.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
-import twitterLight from '../../assets/twitter-light.svg';
-import twitterDark from '../../assets/twitter-dark.svg';
+import leetCodeLight from '../../assets/twitter-light.svg';
+import leetCodeDark from '../../assets/twitter-dark.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
@@ -15,7 +15,7 @@ function Hero() {
   const { theme, toggleTheme } = useTheme();
 
   const themeIcon = theme === 'light' ? sun : moon;
-  const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
+  const leetCodeIcon = theme === 'light' ? leetCodeLight : leetCodeDark; // Replace with your LeetCode icon fileLight : twitterDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
@@ -43,7 +43,7 @@ function Hero() {
         <h2>Software Engineer</h2>
         <span>
           <a href="https://twitter.com/your-twitter" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
+            <img src={leetCodeIcon} alt="Leetcode icon" />
           </a>
           <a href="https://github.com/Krishnan005K" target="_blank">
             <img src={githubIcon} alt="Github icon" />
