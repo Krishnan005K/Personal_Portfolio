@@ -9,7 +9,7 @@ function Contact() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (!formData.name || !formData.email || !formData.message) {
@@ -17,31 +17,26 @@ function Contact() {
       return;
     }
 
-    // Using SMTP.js
-    window.Email.send({
-      SecureToken: 'YOUR_SMTP_SECURE_TOKEN', // Replace with your Secure Token
-      To: 'your_email@example.com', // Replace with the recipient's email
-      From: formData.email, // The sender's email
-      Subject: `Contact Form Submission from ${formData.name}`,
-      Body: `
-        Name: ${formData.name}<br/>
-        Email: ${formData.email}<br/>
-        Message: ${formData.message}<br/>
-      `,
-    })
-      .then((message) => {
-        if (message === 'OK') {
-          setStatus('Message sent successfully!');
-          setFormData({ name: '', email: '', message: '' });
-        } else {
-          setStatus('Failed to send message. Please try again later.');
-          console.error('Email sending failed:', message);
-        }
-      })
-      .catch((error) => {
-        setStatus('Failed to send message. Please try again later.');
-        console.error('Error:', error);
+    // Sending the form data to Formspree
+    try {
+      const response = await fetch('https://formspree.io/f/xovvpjay', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
       });
+
+      if (response.ok) {
+        setStatus('Message sent successfully!');
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        setStatus('Failed to send message. Please try again later.');
+      }
+    } catch (error) {
+      setStatus('Failed to send message. Please try again later.');
+      console.error('Error:', error);
+    }
   };
 
   return (
