@@ -36,6 +36,26 @@ function Projects() {
           p="Fitness App"
         />
       </div>
+      <div className={styles.projectsContainer}>
+        <ProjectCard
+          src={MockInterview}
+          link="https://github.com/Ade-mir/company-landing-page-2"
+          h3="Prep +"
+          p="Mock Interview App"
+        />
+        <ProjectCard
+          src={FoodDelivery}
+          link="https://github.com/Ade-mir/company-landing-page-2"
+          h3="Fresh Burger"
+          p="Hamburger Restaurant"
+        />
+        <ProjectCard
+          src={hipsster}
+          link="https://github.com/Ade-mir/company-landing-page-2"
+          h3="Hipsster"
+          p="Glasses Shop"
+        />
+      </div>
     </section>
   );
 }
