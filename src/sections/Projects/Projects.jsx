@@ -1,11 +1,10 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import decoyIntruction from '../../assets/decoy-intrusion.jpeg'
+import bookReview from '../../assets/book-review.jpeg'
 import ProjectCard from '../../common/ProjectCard';
-import MockInterview from '../../assets/mock-interview.jpeg';
+import MockInterview from '../../assets/Mock-interview.jpeg';
 import FoodDelivery from '../../assets/foodHat.jpeg';
+
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
@@ -24,13 +23,13 @@ function Projects() {
           p="Hamburger Restaurant"
         />
         <ProjectCard
-          src={hipsster}
+          src={decoyIntruction}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="Hipsster"
           p="Glasses Shop"
         />
         <ProjectCard
-          src={fitLift}
+          src={bookReview}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="FitLift"
           p="Fitness App"
@@ -50,7 +49,7 @@ function Projects() {
           p="Hamburger Restaurant"
         />
         <ProjectCard
-          src={hipsster}
+          src={bookReview}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="Hipsster"
           p="Glasses Shop"
