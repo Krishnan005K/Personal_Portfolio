@@ -42,7 +42,7 @@ function Hero() {
         </h1>
         <h2>Software Engineer</h2>
         <span>
-          <a href="https://twitter.com/your-twitter" target="_blank">
+          <a href="https://leetcode.com/u/krishnan005k/" target="_blank">
             <img src={leetCodeIcon} alt="Leetcode icon" />
           </a>
           <a href="https://github.com/Krishnan005K" target="_blank">
