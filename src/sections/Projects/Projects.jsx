@@ -21,20 +21,20 @@ function Projects() {
         <ProjectCard
           src={foodDelivery}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          h3="Food Hat"
+          p="Food Delivery App"
         />
         <ProjectCard
           src={decoyIntruction}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          h3="IntruDector"
+          p="File Decoy App"
         />
         <ProjectCard
           src={bookReview}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          h3="Book of Books"
+          p="Book Review App"
         />
       </div>
       <br/><br/>
@@ -42,20 +42,20 @@ function Projects() {
         <ProjectCard
           src={taskManager}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Prep +"
-          p="Mock Interview App"
+          h3="Tasker"
+          p="Personal Task Manager"
         />
         <ProjectCard
           src={passwordManager}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          h3="Password Manager"
+          p="Password Manager App"
         />
         <ProjectCard
           src={recipeApp}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          h3="Choose Ur Recipe"
+          p="Cooking Recipe App"
         />
       </div>
     </section>
