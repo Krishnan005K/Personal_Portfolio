@@ -14,7 +14,7 @@ function Hero() {
   const { theme, toggleTheme } = useTheme();
 
   const themeIcon = theme === 'light' ? sun : moon;
-  const leetCodeIcon = theme === 'light' ? leetCodeLight : leetCodeDark; // Replace with your LeetCode icon fileLight : twitterDark;
+  const leetCodeIcon = theme === 'light' ? leetCodeLight : leetCodeDark; 
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
