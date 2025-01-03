@@ -45,10 +45,20 @@ function Contact() {
       <section id="contact" className={styles.container}>
         <h1 className="sectionTitle">Contact</h1>
         <div className={styles.contactDetails}>
-          <p><strong>Phone:</strong> +91-9361250297</p>
-          <p><strong>Email:</strong> krishnankaliyappan2005@gmail.com</p>
+          <p>
+            <strong>Phone:</strong>{' '}
+            <a href="tel:+919361250297" className={styles.contactLink}>
+              +91-9361250297
+            </a>
+          </p>
+          <p>
+            <strong>Email:</strong>{' '}
+            <a href="mailto:krishnankaliyappan2005@gmail.com" className={styles.contactLink}>
+              krishnankaliyappan2005@gmail.com
+            </a>
+          </p>
         </div>
-        <br /><br />
+        <br />
         <form onSubmit={handleSubmit}>
           <p><strong>Send me a message:</strong></p>
           <div className="formGroup">

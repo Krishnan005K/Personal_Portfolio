@@ -3,6 +3,15 @@
   flex-direction: column;
   text-align: center;
 }
+.contactLink {
+  color: var(--link-color);
+  text-decoration: none;
+
+}
+
+.contactLink:hover {
+  text-decoration: underline;
+}
 
 form {
   display: flex;
