@@ -37,7 +37,7 @@ function Projects() {
           p="Fitness App"
         />
       </div>
-      <br/>
+      <br/><br/>
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={taskManager}
