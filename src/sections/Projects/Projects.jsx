@@ -8,10 +8,11 @@ import foodDelivery from '../../assets/foodHat.png';
 import passwordManager from '../../assets/passwordManager.jpeg';
 import taskManager from '../../assets/taskManager.png';
 import recipeApp from '../../assets/recipeApp.jpeg';
-import handWritten from '../../assets/Hero.png';
-import ageGender from '../../assets/Hero.png';
-import imageEncrptor from '../../assets/Hero.png';
-import videoDescriptor from '../../assets/Hero.png';
+import handWritten from '../../assets/digitRecog.jpeg';
+import ageGender from '../../assets/age&Gender.png';
+import imageEncrptor from '../../assets/imgEncrypt.jpeg';
+import videoDescrip from '../../assets/videoDescrip.jpeg';
+import imgDescrip from '../../assets/imgDescrip.jpeg';
 function Projects() {
   // Define project categories
   const projects = [
@@ -20,12 +21,13 @@ function Projects() {
     { src: foodDelivery, link: "https://github.com/Krishnan005K/Pizza-Hat", h3: "Pizza Hat", p: "Food Delivery App", category: "Web Application" },
     { src: bookReview, link: "https://github.com/Krishnan005K/BookReview-App", h3: "Boofoks", p: "Book Review App", category: "Web Application" },
     { src: taskManager, link: "https://github.com/Krishnan005K/Task-Manager", h3: "Tasker", p: "Personal Task Manager", category: "Web Application" },
+    { src: imgDescrip,link:"https://github.com/Krishnan005K/Image-Desciption",h3:"ImgDescrip",p:"Image Descriptor App",category:"Other"},
     { src: passwordManager, link: "https://github.com/Krishnan005K/Password-Manager", h3: "PassManager", p: "Password Manager App", category: "Cybersecurity" },
     { src: recipeApp, link: "https://github.com/Krishnan005K/Recipe-API", h3: "ChooseRecipe", p: "Cooking Recipe App", category: "Web Application" },
     { src: handWritten,link:"https://github.com/Krishnan005K/Handwrittien-Digit-Recognition",h3:"DigitRecog",p:"Written Digit Recog",category:"Other"},
     { src: ageGender,link:"https://github.com/Krishnan005K/Age-and-Gender-Detection",h3:"Age&Gender",p:"Age Gender Detector",category:"Other"},
-    { src: imageEncrptor,link:"https://github.com/Krishnan005K/ImageEncryption",h3:"ImgEncryptor",p:"Image Encryptor",category:"Cybersecurity"},
-    { src: videoDescriptor,link:"https://github.com/Krishnan005K/Image-Desciption",h3:"VidDescrip",p:"Video Descriptor",category:"Other"},
+    { src: imageEncrptor,link:"https://github.com/Krishnan005K/ImageEncryption",h3:"ImgEncryptor",p:"Img Encrytor & Decryptor",category:"Cybersecurity"},
+    // { src: videoDescrip,link:"https://github.com/Krishnan005K/VideoDescription",h3:"VidDescrip",p:"Video Descriptor App",category:"Other"},
   ];
 
   
