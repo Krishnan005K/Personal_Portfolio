@@ -2,8 +2,8 @@ import styles from './ProjectsStyles.module.css';
 import decoyIntruction from '../../assets/decoy-intrusion.jpeg'
 import bookReview from '../../assets/bookReview.jpeg'
 import ProjectCard from '../../common/ProjectCard';
-import mockInterview from '../../assets/mockInterview.jpeg';
-import foodDelivery from '../../assets/foodHat.jpeg';
+import mockInterview from '../../assets/mockInterview.png';
+import foodDelivery from '../../assets/foodHat.png';
 import passwordManager from '../../assets/passwordManager.jpeg';
 import taskManager from '../../assets/taskManager.jpeg';
 import recipeApp from '../../assets/recipeApp.jpeg';
@@ -33,7 +33,7 @@ function Projects() {
         <ProjectCard
           src={bookReview}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Book of Books"
+          h3="Boofoks"
           p="Book Review App"
         />
       </div>
@@ -48,13 +48,13 @@ function Projects() {
         <ProjectCard
           src={passwordManager}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Password Manager"
+          h3="PassManager"
           p="Password Manager App"
         />
         <ProjectCard
           src={recipeApp}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Choose Ur Recipe"
+          h3="ChooseRecipe"
           p="Cooking Recipe App"
         />
       </div>
