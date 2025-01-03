@@ -11,8 +11,8 @@ import recipeApp from '../../assets/recipeApp.jpeg';
 import handWritten from '../../assets/digitRecog.jpeg';
 import ageGender from '../../assets/age&Gender.png';
 import imageEncrptor from '../../assets/imgEncrypt.jpeg';
-import videoDescrip from '../../assets/videoDescrip.jpeg';
 import imgDescrip from '../../assets/imgDescrip.jpeg';
+// import videoDescrip from '../../assets/videoDescrip.jpeg';
 function Projects() {
   // Define project categories
   const projects = [

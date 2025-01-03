@@ -29,6 +29,7 @@ function Contact() {
 
       if (response.ok) {
         setStatus('Message sent successfully!');
+        setStatus('You will get a reply shortly.');
         setFormData({ name: '', email: '', message: '' });
       } else {
         setStatus('Failed to send message. Please try again later.');
@@ -40,54 +41,63 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className={styles.container}>
-      <h1 className="sectionTitle">Contact</h1>
-      <form onSubmit={handleSubmit}>
-        <div className="formGroup">
-          <label htmlFor="name" hidden>
-            Name
-          </label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
+    <div>
+      <section id="contact" className={styles.container}>
+        <h1 className="sectionTitle">Contact</h1>
+        <div className={styles.contactDetails}>
+          <p><strong>Phone:</strong> +91-9361250297</p>
+          <p><strong>Email:</strong> krishnankaliyappan2005@gmail.com</p>
         </div>
-        <div className="formGroup">
-          <label htmlFor="email" hidden>
-            Email
-          </label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="formGroup">
-          <label htmlFor="message" hidden>
-            Message
-          </label>
-          <textarea
-            name="message"
-            id="message"
-            placeholder="Message"
-            value={formData.message}
-            onChange={handleChange}
-            required
-          ></textarea>
-        </div>
-        <input className="hover btn" type="submit" value="Submit" />
-      </form>
-      {status && <p className="statusMessage">{status}</p>}
-    </section>
+        <br /><br />
+        <form onSubmit={handleSubmit}>
+          <p><strong>Send me a message:</strong></p>
+          <div className="formGroup">
+            <label htmlFor="name" hidden>
+              Name
+            </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="formGroup">
+            <label htmlFor="email" hidden>
+              Email
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="formGroup">
+            <label htmlFor="message" hidden>
+              Message
+            </label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Message"
+              value={formData.message}
+              onChange={handleChange}
+              required
+            ></textarea>
+          </div>
+          <input className="hover btn" type="submit" value="Submit" />
+        </form>
+        <br />
+        {status && <p className="statusMessage">{status}</p>}
+      </section>
+    </div>
   );
 }
 

@@ -8,7 +8,6 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import Resume from '../../assets/Resume Krishnan K.pdf'; // Replace with your CV file
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -56,7 +55,7 @@ function Hero() {
           Software engineer with expertise in full-stack development, cybersecurity, 
           and modern web applications, eager to create impactful solutions.
         </p>
-        <a href={Resume} download>
+        <a href="https://drive.google.com/file/d/1uH_ANaT0Qfa5As4kxie56L8OZBP19spW/view?usp=drive_link" target="_blank">
           <button className="hover">Resume</button>
         </a>
       </div>

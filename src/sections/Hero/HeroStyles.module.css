@@ -57,6 +57,7 @@ img{
 }
 .colorModeContainer {
   position: relative;
+  flex-direction: column;
 }
 
 .colorMode {
