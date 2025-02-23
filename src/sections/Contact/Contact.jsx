@@ -16,7 +16,6 @@ function Contact() {
       setStatus('Please fill in all fields.');
       return;
     }
-
     // Sending the form data to Formspree
     try {
       const response = await fetch('https://formspree.io/f/xovvpjay', {
