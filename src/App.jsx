@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       {/* <Views /> */}
-      <img style={{  borderRadius: "20px", alignSelf: "center" ,padding: "30px",marginBottom :"-250px",marginLeft:"700px"}}
-                src="https://komarev.com/ghpvc/?username=Krishnan005K&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+      {/* <img style={{  borderRadius: "20px", alignSelf: "center" ,padding: "30px",marginBottom :"-250px",marginLeft:"700px"}}
+                src="https://komarev.com/ghpvc/?username=Krishnan005K&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" /> */}
       <Hero />
       <Projects />
       <Skills />
