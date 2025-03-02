@@ -26,6 +26,7 @@ function Hero() {
           className={styles.hero}
           alt="Profile picture "
         />
+        
         <img
           className={styles.colorMode}
           src={themeIcon}
