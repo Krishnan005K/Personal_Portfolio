@@ -56,7 +56,7 @@ function Hero() {
           Software engineer with expertise in full-stack development, cybersecurity, 
           and modern web applications, eager to create impactful solutions.
         </p>
-        <a href="https://drive.google.com/file/d/1uH_ANaT0Qfa5As4kxie56L8OZBP19spW/view?usp=drive_link" target="_blank">
+        <a href="https://drive.google.com/file/d/1nCQsgp2JyH_rJs-hUpadedgtD8AI57E7/view?usp=drive_link" target="_blank">
           <button className="hover">Resume</button>
         </a>
       </div>
