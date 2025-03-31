@@ -23,7 +23,7 @@ function GhibliGallery() {
       </div>
       <br />
       <br />
-      <h2>Want to generate your Own <a  href="https://krishnan005k.hashnode.dev/how-to-transform-your-image-into-stunning-glibii-art" target="_blank"><p>Check out my Hashnode page</p></a>
+      <h2>Want to generate your Own <a  href="https://techtrends-krishnan005k.hashnode.dev/how-to-transform-your-image-into-stunning-glibii-art" target="_blank"><p>Check out my Hashnode page</p></a>
       </h2>
     </section>
   );
