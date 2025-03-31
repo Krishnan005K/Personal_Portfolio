@@ -5,6 +5,7 @@ import moon from '../../assets/moon.svg';
 import leetCodeLight from '../../assets/leetcode-light.png';
 import leetCodeDark from '../../assets/leetcode-dark.png';
 import githubLight from '../../assets/github-light.svg';
+import hashnode from '../../assets/hashnode.png';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
@@ -51,6 +52,10 @@ function Hero() {
           <a href="https://linkedin.com/in/krishnan005k" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
+          <a href="https://hashnode.com/@Krishnan005K" target="_blank">
+            <img src={hashnode} alt="Hashnode icon" />
+          </a>
+
         </span>
         <p className={styles.description}>
           Software engineer with expertise in full-stack development, cybersecurity, 
