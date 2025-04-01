@@ -5,7 +5,6 @@ import Ghibli from './sections/Ghibli/Ghibli';
 import Hero from './sections/Hero/Hero';
 import Projects from './sections/Projects/Projects';
 import Skills from './sections/Skills/Skills';
-import Views from './sections/Views/Views';
 function App() {
   return (
     <>
