@@ -7,7 +7,7 @@ import Projects from './sections/Projects/Projects';
 import Skills from './sections/Skills/Skills';
 function App() {
   return (
-    <div>
+    <>
      
       <Hero />
       <Projects />
@@ -15,7 +15,7 @@ function App() {
       <Ghibli/>
       <Contact /> 
       <Footer />
-    </div>
+    </>
   );
 }
 
